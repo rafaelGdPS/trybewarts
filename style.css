@@ -1,21 +1,30 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    justify-content: space-around;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-around;
 }
 
 .trybewarts-login {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .trybewarts-login div {
-    justify-content: flex-end;
-    display: flex;
+  justify-content: flex-end;
+  display: flex;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-basis: 675px;
+}
+
