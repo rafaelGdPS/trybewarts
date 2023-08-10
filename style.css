@@ -21,10 +21,38 @@
 
 main {
   display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 
 #evaluation-form {
   display: flex;
   flex-basis: 675px;
+  flex-direction: column;
+  border: 1px solid blue;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#form-first {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#forma-second {
+  border: 1px solid green;
+  display: flex;
+}
+
+#input-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-checkbox {
+  display: flex;
+  flex-direction: column;
+}
