@@ -69,3 +69,8 @@ main {
   display: flex;
   flex-direction: column-reverse;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}
