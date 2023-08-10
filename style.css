@@ -29,7 +29,6 @@ main {
   display: flex;
   flex-basis: 675px;
   flex-direction: column;
-  border: 1px solid blue;
 }
 
 #trybewarts-forms-logo {
@@ -37,13 +36,11 @@ main {
 }
 
 #form-first {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
 }
 
 #forma-second {
-  border: 1px solid green;
   display: flex;
 }
 
@@ -55,4 +52,20 @@ main {
 #input-checkbox {
   display: flex;
   flex-direction: column;
+}
+
+#input-satisfying {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#satisfying-radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rate-radio {
+  display: flex;
+  flex-direction: column-reverse;
 }

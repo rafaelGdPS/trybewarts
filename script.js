@@ -12,3 +12,17 @@ const validation = () => {
 };
 
 btnLogin.addEventListener('click', validation);
+
+const btnSubmit = document.getElementById('submit-btn');
+const checkboxSubmit = document.getElementById('agreement');
+
+btnSubmit.disabled = true;
+
+const checkAgree = () => {
+  if (checkboxSubmit.checked) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+};
+checkboxSubmit.addEventListener('change', checkAgree);
